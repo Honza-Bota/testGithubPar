@@ -34,5 +34,11 @@ namespace testGithub
         {
 
         }
+
+        public int VratVek()
+        {
+            return Age;
+        }
+
     }
 }
