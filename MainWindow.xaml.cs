@@ -29,16 +29,19 @@ namespace testGithub
     class Osoba
     {
         public int Age { get; set; }
+        public string Name { get; set; }
 
-        public Osoba(int age)
+        public Osoba(int age, string name)
         {
-
+            Age = age;
         }
+
 
         public int VratVek()
         {
             return Age;
         }
+
 
     }
 }
