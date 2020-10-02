@@ -43,5 +43,13 @@ namespace testGithub
         }
 
 
+        class Woman : Osoba
+        {
+            public Woman(int age, string name) : base(age, name)
+            {
+
+            }
+        }
+        
     }
 }
