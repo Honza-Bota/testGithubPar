@@ -45,9 +45,10 @@ namespace testGithub
 
         class Woman : Osoba
         {
-            public Woman(int age, string name) : base(age, name)
+            public bool Gender { get; set; }
+            public Woman(int age, string name,bool gender) : base(age, name)
             {
-
+                Gender = gender;
             }
         }
         
