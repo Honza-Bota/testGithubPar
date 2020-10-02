@@ -38,4 +38,13 @@ namespace testGithub
 
         
     }
+
+    class Muz : Osoba
+    {
+        public bool Gender { get; set; }
+        public Muz(int age,string name,bool gender) :base(age,name)
+        {
+            Gender = gender;
+        }
+    }
 }
